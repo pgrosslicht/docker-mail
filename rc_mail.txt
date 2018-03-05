@@ -1,0 +1,4 @@
+A new iOS Release Candidate <<BUILD_TAG>> was finished and is ready for testing.
+Pipeline: <<PROJECT_URL>>/pipelines/<<PIPELINE_ID>>
+
+Have fun.

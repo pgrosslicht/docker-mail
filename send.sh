@@ -1,0 +1,1 @@
+sed -e "s/\<<BUILD_TAG>>/$CI_BUILD_TAG/" -e "s/\<<PROJECT_URL>>/$CI_PROJECT_URL/" -e "s/\<<PIPELINE_ID>>/$CI_PIPELINE_ID/" mail.txt | mailx -a $SENDER --set=smtp=$SMTP_HOST:$SMTP_PORT -s $SUBJECT -A CHANGELOG.md $RECIPIENTS
